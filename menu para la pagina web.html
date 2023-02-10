@@ -1,0 +1,665 @@
+<html>
+<head>
+</head>
+<body>
+<span class="Nutricon Saludable"></span>
+
+<!--Agregamos contenido para que aparezca la barra vertical del navegador-->
+	<section class="contenido">
+
+<center><h1 style="background-color:#5f9f9f;"> <font color="black" face="time new roman"> Politecnico Bienvenido Caro Amancio </h1></center>
+<marquee behavior="alternate" direction="right"> <h2> <font color="blue" face="time new roman"> Diseño de Portales Web y Recursos Multimedia</h2></marquee>
+
+
+
+
+<div id="current_date"></p>
+<script>
+document.getElementById("current_date").innerHTML = date();
+</script>
+
+<FORM method=GET acion="http://www.google.com/search">
+     <fieldset>
+         <input type=hidden name=ie value=UTF-8 />
+         <input type=hidden name=oe value=UTF-8 />
+
+         <INPUT TYPE=text id="s" name="q" value="" size="40" />
+         <font size=-0 color="navy">
+		 
+         <input type=hidden name=domains value="http://www.google.com" /><br>
+		 <input type=radio name=sitesearch value="" /><b> En todo Internet</b><br>
+		 <input type=radio name=sitesearch value="http://www.google.com" checked /><b> En google.com</b></br>
+
+		 
+		 <input type=submit id="x" name=btnG VALUE="buscar" />
+		 </font>
+	   </fieldset>
+	   </FORM>
+
+<style type="text/css">
+
+nav {
+padding:6px;
+}
+
+#logo{
+     margin: auto;
+	 height:210px;
+	 width: 210px;
+	 text-align: center;
+	 }
+
+nav ul {
+display:inline-block;
+display: flex;
+justify-content: center;
+}
+
+nav ul a {
+font-family:timenewroman;
+font-size:18px;
+text-decoration:none;
+font-weight: bold;
+text-align left;
+float:left;
+padding:20px;
+background-color:#000000;
+color:#ffffff;
+}
+
+nav ul a:hover{
+background-color:#5f9f9f;
+padding-bottom:5px;
+
+}
+
+
+
+.classname {
+color: #333333;
+ font-family:"times new roman" , times, serif;
+}
+</style>
+
+<!-- weather widget start --><div id="m-booked-weather-bl250-5056"> <div class="booked-wzs-250-175 weather-customize" style="background-color:#137AE9;"width:700px;" id="width1"> <div class="booked-wzs-250-175_in"> <div class="booked-wzs-250-175-data"> <div class="booked-wzs-250-175-left-img wrz-18"> </div> <div class="booked-wzs-250-175-right"> <div class="booked-wzs-day-deck"> <div class="booked-wzs-day-val"> <div class="booked-wzs-day-number"><span class="plus">+</span>28</div> <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> <div class="booked-wzs-day-dergee-name">C</div> </div> </div> <div class="booked-wzs-day"> <div class="booked-wzs-day-d">H: <span class="plus">+</span>28&deg;</div> <div class="booked-wzs-day-n">L: <span class="plus">+</span>21&deg;</div> </div> </div> <div class="booked-wzs-250-175-info"> <div class="booked-wzs-250-175-city smolest">San Cristobal </div> <div class="booked-wzs-250-175-date">Martes, 31 Enero</div> <div class="booked-wzs-left"> <span class="booked-wzs-bottom-l">Previsión para 7 días</span> </div> </div> </div> </div> <table cellpadding="0" cellspacing="0" class="booked-wzs-table-250"> <tr> <td>Mié</td> <td>Juv</td> <td>Vie</td> <td>Sáb</td> <td>Dom</td> <td>Lun</td> </tr> <tr> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>28&deg;</td> <td class="week-day-val"><span class="plus">+</span>30&deg;</td> <td class="week-day-val"><span class="plus">+</span>28&deg;</td> <td class="week-day-val"><span class="plus">+</span>29&deg;</td> <td class="week-day-val"><span class="plus">+</span>28&deg;</td> <td class="week-day-val"><span class="plus">+</span>28&deg;</td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>21&deg;</td> <td class="week-day-val"><span class="plus">+</span>20&deg;</td> <td class="week-day-val"><span class="plus">+</span>21&deg;</td> <td class="week-day-val"><span class="plus">+</span>21&deg;</td> <td class="week-day-val"><span class="plus">+</span>21&deg;</td> <td class="week-day-val"><span class="plus">+</span>21&deg;</td> </tr> </table> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_5056(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-5056'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=259579;type=3;scode=32076;ltid=3458;domid=582;anc_id=59860;countday=undefined;cmetric=1;wlangID=4;color=137AE9;wwidth=250;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=5056';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
+
+
+<center>
+
+<iframe width="475" height="250" src="https://reloj-
+alarma.com/embed/#theme=0&ampm=0&showdate=1" frameborder="0" 
+allowfullscreen></iframe>
+</center>
+
+
+
+
+
+
+<div id="logo">
+<img src="liceo.jpg" alt="logo del liceo" style="width:210;height:210px;">
+</div>
+
+
+
+<nav> <ul id="menu">
+<a href="#></a>
+
+
+
+</ul> <ul id="menu">
+<a href="#">inicio</a>
+<a href="#">¿quienes somos?</a>
+<a href="#">Acerca de mi </a>
+<a href="#">servisios</a>
+<a href="#">contactos</a>
+<a href="#">redes sociales</a>
+<a href="#">otras informaciones</a>
+<a href="#">ayuda</a>
+
+</ul>
+
+</nav>
+
+</style>
+
+<meta name="viewport" content="width=device-width, inicial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+ .fa fa-house-square:hover {
+ color: blue;
+ }
+ .fa-facebook-square:hover {
+ color:#3B5998;
+ }
+ .fa-twitter-square:hover {
+ color:#55acee;
+ }
+ .fa-google-plus-square:hover{
+ color:#dd4b39;
+ }
+ .fa-linkedin-square:hover{
+ color:#0177B5;
+ }
+ .fa-youtube-square {
+ font-size: 52px;
+ color: gray;
+ }
+ .fa-twitter-square {
+ font-size: 52px;
+ color: gray;
+ }
+ .fa-google-plus-square {
+ font-size: 52px;
+ color: gray;
+ }
+ .fa-linkedin-square {
+ font-size: 52px;
+ color: gray;
+ }
+ .fa-youtube-square {
+ font-size: 52px;
+ color: gray;
+ } 
+ .fa-facebook-square {
+ font-size: 52px;
+ color: gray;
+ }
+ .fa fa-house-square:hover {
+ font-size: 52px;
+ color: gray;
+ }
+</style>
+
+
+<center><a href="http://es-la.facebook.com/ "target="_blank" class="fa fa-facebook-square"></a>
+<a href="http://twitter.com/"target="_blank" class="fa fa-twitter-square"></a>
+<a href="http://plus.google.com/"target="_blank" class="fa fa-google-plus-square"></a>
+<a href="http://linkedin.com/."target="_blank" class="fa fa-linkedin-square"></a>
+<a href="http://youtube.com"target="_blank" class="fa fa-youtube-square"></a></center>
+
+
+<a href="#"target="_blank" class="fa fa-house-square"></a></center>
+
+
+
+
+
+<hr size="4" color="cyan">
+
+<center><h1><font color="blue">Nutricion saludable<h1></center>
+
+
+<table>
+<p><h4><center><font color="black">Resalta la importancia de las frutas, las verduras, los cereales integrales, la leche y los productos lácteos sin grasa o bajos en grasa. Incluye una variedad de alimentos con proteínas como mariscos, carnes magras, huevos, legumbres (frijoles y guisantes), productos de soya, nueces y semillas.</center><h4></p>
+
+
+<center><div id="nuticion">
+<img src="nutricion1.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+
+    </table>
+
+
+
+
+<hr size="4" color="cyan">
+
+<center><h1><font color="BLUE">¿Que es la alimentacion saludable?<h1></center>
+
+
+<p><h4><font color="black"> Diariamente, al consumir alimentos no hay conocimiento claro de sus contenidos nutricionales, calorías, cantidades de sodio o azúcar y se habla que es preferible consumir más proteínas que harinas o que son mejores las dietas recomendadas por los conocidos o encontradas en páginas de internet que consultar a un especialista.
+Generalizando, se puede decir que la alimentación saludable es aquella que proporciona los nutrientes que el cuerpo necesita para mantener el buen funcionamiento del organismo, conservar o restablecer la salud, minimizar el riesgo de enfermedades, garantizar la reproducción, gestación, lactancia, desarrollo y crecimiento adecuado. Para lograrlo, es necesario el consumo diario de frutas, verduras, cereales integrales, legumbres, leche, carnes, aves y pescado y aceite vegetal en cantidades adecuadas y variadas. Si lo hacemos así, estamos diciendo que tenemos una alimentación saludable.<h4></p>
+
+
+
+<center><div id="nuticion">
+<img src="nutricion.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+
+<hr size="4" color="cyan">
+ 
+
+ <center><h1><font color="blue">¿Por que es importante tener una alimentacion saludable?
+ 
+<p><h6><font color="black">Una alimentación saludable ayuda a mantener una buena salud y a prevenir enfermedades no transmisibles como la diabetes, las cardiopatías, los accidentes cerebrovasculares y el cáncer. Te compartimos algunos consejos prácticos que te llevarán a lograr una buena alimentación.<h6></p> 
+ 
+ <p><h4>Una alimentación saludable ayuda a mantener una buena salud y a prevenir enfermedades no transmisibles como la diabetes, las cardiopatías, los accidentes cerebrovasculares y el cáncer.<h4></p>
+ 
+<center><div id="nuticion">
+<img src="nutricion3.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+
+
+
+<hr size="5" color="cyan">
+
+ <center><h1><font color="blue">10 alimentos saludables para tener siempre a mano</center><h1>
+ 
+ 
+ <center><h4><font color="black">1-Tomate<h4></center>
+
+
+<p><h6>De todas las verduras y hortalizas a nuestro alcance, merece la pena destacar al tomate.
+
+Pertenece a la familia de las solanáceas, y es muy rico en agua (casi un 95% de su peso), aportando solo 20 calorías por cada 100 gramos.
+
+Aunque lo verdaderamente importante del tomate es su contenido en vitaminas y minerales, sobre todo vitamina C.<h6></p>
+
+
+  <center><h2><font color="black">2-Pimiento<h2></center>
+
+<p><h4>Como buen vegetal que es, tiene un bajo aporte calórico (20 calorías por 100 gramos), de proteínas y de grasas, aportando fundamentalmente hidratos de carbono y fibra.
+
+Este alimento también constituye una fuente importante de vitamina C, sobre todo los pimientos de color rojo.<h4></p>
+
+
+<center><h2><font color="black">3-Garbanzo<h2></center>
+
+<p><h4>Se trata de una leguminosa de la familia de las fabáceas, de amplia difusión en todos los países del Mediterráneo.
+
+Su aporte energético supera al de la alubia o frijol, alcanzando las 343 kcal por 100 gramos.
+
+No acaba ahí la cosa. Además, su aporte proteico es elevado (casi 20 gramos), es rico en potasio y fósforo potasio, y la vitamina más destacada en su composición es el ácido fólico (180 ug)<h4></p>
+
+
+<center><h2><font color="black">4-Pavo<h2></center>
+
+<p><h4>Forma parte de las carnes blancas, que se caracterizan por tener poca grasa y bajo nivel de colesterol. El aporte calórico del pavo es moderado: menos de 130 calorías por cada 100 gramos de muslo y menos de 100 calorías por 100 gramos de pechuga.<h4></p>
+
+
+<center><h2><font color="black">5-Sardinas<h2></center>
+
+<p><h4>De los pescados nos quedamos con este por ser uno de los pescados grasos por excelencia, que en estos últimos años ha recibido mucha atención por su aporte de ácidos omega-3.
+
+No hay que olvidar que el consumo asiduo de omega-3 se relaciona con un efecto beneficioso sobre enfermedades inflamatorias como la artritis reumatoide y las patologías oncológicas.
+
+También presenta un aporte interesante de vitaminas hidrosolubles del grupo B, con importantes funciones en el aprovechamiento de los nutrientes energéticos.<h4></p>
+
+
+<center><h2><font color="black">6-Arandanos<h2></center>
+
+<p><h4>Esta fruta es casi un 90% agua y apenas aporta calorías.
+
+Su aporte de hidratos de carbono es escaso (6 gramos por cada 100), y el porcentaje de proteínas y grasas prácticamente anecdótico (0,6 gramos).
+
+Lo que sí proporciona son cantidades importantes de fibra (5 gramos). Aunque su importancia nutricional tiene que ver sobre todo con los antioxidantes.<h4></p>
+
+
+<center><h2><font color="black">7-Mangos<h2></center>
+
+<p><h4>Desde el punto de vista nutricional, su contenido de agua es elevado (casi un 85%). Aporta 14 gramos de carbohidratos por 100 gramos, y su aporte de grasa es prácticamente nulo.
+
+Como curiosidad, aporta también los ácidos tartárico y málico.
+
+Además, su abundancia de fibras mejora el tránsito intestinal.<h4></p>
+
+
+<center><h2><font color="black">8-Uvas<h2></center>
+
+<p><h4>Aunque impopular por su elevado aporte calórico (70 calorías por 100 gramos), es otro alimento interesante.
+
+Aporta potasio (350 mg por 100 gramos) y, en menor medida, calcio y magnesio.
+
+También ofrecen buena fuente de ácido fólico para las gestantes, y de vitamina B6.<h4></p>
+
+
+<center><h2><font color="black">9-Miel<h2></center>
+
+<p><h4>Su aporte calórico se sitúa alrededor de 300 calorías por 100 gramos a expensas de los hidratos de carbono, aportando muy pocas proteínas y nada de grasa.
+
+Eso explica por qué tradicionalmente se ha usado tópicamente como antiséptico, para favorecer la cicatrización y prevención de infecciones en heridas o quemaduras superficiales: con tanto azúcar destruye físicamente a las bacterias por lisis osmótica.<h4></p>
+
+
+<center><h2><font color="black">10-Aceite de olivia <h2></center>
+
+<p><h4>Gracias a su alto contenido en ácido oleico (omega 9) tiene claras propiedades cardiosaludables.
+
+Las evidencias científicas indican que produce en sangre una disminución del colesterol malo (LDL) y aumento del colesterol bueno (HDL).
+
+Además, contiene vitamina E a raudales, que protege a las arterias del colesterol ya existente en la sangre, previniendo la arteriosclerosis.<h4></p>
+
+
+<center><div id="nuticion">
+<img src="nutricion2.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+
+
+<hr size="5" color="cyan">
+
+<table>
+        <tr>
+          	<td> <img src="nutricion7.jpg" alt="nutricion" style="width:400;height:340px;"></td>
+			
+
+<center><h1><font color="blue">Dieta saludable<h1></center>
+
+<td><p><h4><font color="black"> Resalta la importancia de las frutas, las verduras, los cereales integrales, la leche y los productos lácteos sin grasa o bajos en grasa. Incluye una variedad de alimentos con proteínas como mariscos, carnes magras, huevos, legumbres (frijoles y guisantes), productos de soya, nueces y semillas.<h4></p>
+
+<p><h4><font color="black"> Una dieta sana incluye lo siguiente: Frutas, verduras, legumbres (tales como lentejas y alubias), frutos secos y cereales integrales (por ejemplo, maíz, mijo, avena, trigo o arroz moreno no procesados).<h4></p></td>
+        </tr>
+	</table>	
+
+
+
+
+<hr size="5" color="cyan">
+
+<table>
+        <tr>
+            <td> <img src="nutricion6.jpg" alt="nutricion" style="width:500;height:340px;"></td>	
+
+
+<center><h1><font color="blue">Dieta no saludable<h1></center>
+
+<td><p><h4><font color="black">Una dieta poco saludable es aquella en que no existe un equilibrio en la ingesta de alimentos de todos los grupos nutricionales, es decir, de:
+Leche y derivados.
+Carnes, pescado y huevos.
+Verduras y frutas.
+Feculentos y azucarados.
+Bebidas.<h4></p></td>
+        </tr>
+    </table>		
+
+
+
+<hr size="5" color="cyan">
+
+<center><h1><font color="blue">Video sobre la alimentacion saludable 👇<h1></center>
+
+<video width="550px" height="420px" controls >
+        <source src="alimentacion.mp4" type="video/mp4">
+	</video>	
+
+<hr size="5" color="cyan">		
+<table>
+        <tr>
+            <td> <img src="nutricion8.jpg" alt="nutricion" style="width:530;height:400px;"></td>	
+
+
+<center><h1><font color="blue">Piramide alimenticia<h1></center>
+
+<td><p><h4><font color="black">La pirámide alimenticia, pirámide alimentaria, o también llamada pirámide nutricional, es una referencia gráfica de la cantidad de los diferentes grupos de alimentos recomendados para consumir diariamente por las autoridades sanitarias para mantenernos saludables.<h4></p>
+a pirámide alimentaria, o también llamada pirámide alimenticia, indica la cantidad de alimento a consumir diariamente en proporciones adecuadas para cada grupo. En otras palabras, te permite visualizar qué y cuánto comer en general<h4></p></td>   
+
+        </tr>
+    </table>		
+
+ <hr size="5" color="cyan">  
+   
+ <center><h1><font color="blue">Enfermedades que produce la mala alimentacion.<h1></center>
+ <p><h4><font color="black">Las enfermedades no transmisibles relacionadas con la alimentación abarcan las enfermedades cardiovasculares (como el infarto de miocardio y los accidentes cerebrovasculares, a menudo asociados a la hipertensión arterial) algunos cánceres, y la diabetes.<h4></p>
+
+<center><div id="nuticion">
+<img src="nutricion10.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+
+
+<hr size="5" color="cyan"> 
+    
+	<center><div id="nuticion">
+<img src="nutricion11.jpg" alt="nutricion" style="width:400;height:340px;">
+</div></center>
+	
+	
+	
+	
+	<p><h4><font color="black">
+<p>Podría ayudarte a vivir más tiempo.</p>
+<p>Mantiene la piel, los dientes y los ojos saludables.</p>
+<p>Apoya a los músculos.</p>
+<p>Estimula la inmunidad.</p>
+<p>Fortalece los huesos.</p>
+<p>Reduce el riesgo de las enfermedades del corazón, la diabetes tipo 2 y algunos cánceres.<//p>
+<p>Apoya los embarazos saludables y la lactancia.<h4></p>
+	
+	
+	
+	<hr size="5" color="cyan"> 
+	<center><h1><font color="blue">¿Que vitamina nos aporta los alimentos? <h1></center>
+	
+	<p><h4><font color="black">Las principales vitaminas que nos aportan los alimentos son las A, B1, B2, B3, B6, B9, B12, C, D, E y K. Veamos qué función cumple cada una de ellas y qué alimentos nos las aportan.<h4></p>
+	
+	
+	<center><h2><font color="black">-Vitamina A<h2></center>
+	<p><h4>La vitamina A es importante para la visión normal, el sistema inmunitario, la reproducción, además del crecimiento y el desarrollo. La vitamina A también ayuda al buen funcionamiento del corazón, los pulmones y otros órganos.<h4></P>
+	
+	<center><h2><font color="black"><h2></center>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr size="5" color="cyan"> 
+	<center><h1><font color="blue"> Datos interesantes sobre la bandera nacional ⬇️ <h1></center>
+	
+	<video width="350px" height="300px" controls >
+        <source src="video.mp4" type="video/mp4">
+	</video>		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr size="5" color="cyan">
+
+<center><div id="nuticion">
+<img src="capture.jpg" alt="nutricion" style="width:330px;height:340px;">
+</div></center>
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  <style>
+    body { background-color: #CCFFFF; }
+  </style>
+</head>
+<body>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Back To Top Button by CodexWorld</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+<style type="text/css">
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+</style>
+</head>
+
+<body>
+<!-- BackToTop Button -->
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+<!-- ++++++++++++ Page Content Goes Here ++++++++++++ -->
+
+
+
+
+
+
+</body>
+</html>
+</head>
+	
+
+
+
+
+
+
+
+ <center><h2> <div id="copyright"> <font color= "blue"> <b> copyright&copy; 2022 - pagina creada por carlos yadiel tejeda - Todos los derechos reservado.<h2></b></div>
+
+
+
+
+<center>
+<iframe src="http://wanted5games.com/games/html5/mini-battles-12-new-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" width="936" height="527" frameborder="0" scrolling="no"></iframe>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
